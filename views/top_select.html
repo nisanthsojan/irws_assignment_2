@@ -1,0 +1,7 @@
+<p>Select a document to get the top 100 words in that document:</p>
+
+<ul>
+    {{#fileData}}
+    <li><a href="/counter/top/{{id}}">{{name}}</a></li>
+    {{/fileData}}
+</ul>

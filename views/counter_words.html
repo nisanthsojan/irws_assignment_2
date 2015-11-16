@@ -1,0 +1,13 @@
+<p>The total corpus word length is: {{corpusWordLength}}</p>
+
+<p>Each documnet word count is as follows:</p>
+<ul>
+    {{#fileData}}
+    <li style="padding: 5px 0;">
+        <ul style="list-style: none;padding: 0;">
+            <li><b>File name:</b> {{name}}</li>
+            <li><b>Word count:</b> {{count}}</li>
+        </ul>
+    </li>
+    {{/fileData}}
+</ul>

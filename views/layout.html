@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+<h1> {{ title }} </h1>
+<ul class="menu">
+    <li><a href="/counter">Count the number of words in the entire corpus</a></li>
+    <li><a href="/counter/top">Count the top 100 most frequent words</a></li>
+    <li><a href="/counter/unique">Count the top 100 most frequent words</a></li>
+</ul>
+{{{yield}}}
+</body>
+</html>

@@ -1,0 +1,9 @@
+<p><b>Selected document:</b> {{selectedCorpus.name}}</p>
+<div class="corpus-data">{{selectedCorpus.data}}</div>
+
+<h4>Top 100 words are:</h4>
+<ol>
+    {{#wordIndex}}
+    <li><b>{{word}} : </b> {{count}}</li>
+    {{/wordIndex}}
+</ol>
