@@ -1,0 +1,23 @@
+<p>Count the frequency of each unique term in each document:</p>
+
+<table>
+    <tr valign="top">
+        {{#fileData}}
+        <td>
+        <ul>
+            <li>File: {{name}}</li>
+            <li>Unique word count: {{count}}</li>
+            <li>
+                <b>Words</b>
+                <ol>
+                    {{#words}}
+                    <li>{{text}} : {{count}}</li>
+                    {{/words}}
+                </ol>
+            </li>
+        </ul>
+        </td>
+        {{/fileData}}
+    </tr>
+</table>
+
